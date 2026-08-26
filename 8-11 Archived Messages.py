@@ -1,4 +1,4 @@
-ef send_messages(short_text_messages):
+def send_messages(short_text_messages):
     while short_text_messages:
         old_part = short_text_messages.pop()
         print(f"The following messages are being sent: {old_part}")
